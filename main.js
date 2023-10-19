@@ -55,9 +55,9 @@ equal.addEventListener("click", () => {
 });
 
 clear.addEventListener("click", () => {
-  input.value = "";
+  input.value = "0";
 });
 
 erase.addEventListener("click", () => {
-  input.value = input.value.substr(0, input.value.length - 1);
+  input.value = input.value.slice(0, - 1);
 });
